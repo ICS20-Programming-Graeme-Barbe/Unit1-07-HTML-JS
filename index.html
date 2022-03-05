@@ -22,14 +22,6 @@
  	<body>
 		<!-- Google's MDL -->
 		<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-
-		<!-- Button alert -->
-		<script>
-			function mybuttonclicked() {
-				alert("Hello World!")
-			}
-				</script>
-		
 		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 			
 			<!-- Container for webpage content -->
@@ -37,13 +29,20 @@
 
 				<!-- Header -->
 				<h1>Hello, World! (with JS)</h1>
+
+				<!-- Button alert -->
+				<script>
+					function mybuttonclicked() {
+					alert("Hello World!")
+					}
+				</script>
 	
 				<!-- Flat button with ripple -->
 				<button onclick="mybuttonclicked()" class="mdl-button mdl-js-button mdl-js-ripple-effect">
-	 				Click me for a surprie 
+	 				Click me for a surprise 
 				</button>
 
-				<!-- Link -->
+				<!-- Link to second web page -->
 				<br></br>
 				<p>Here is a <a href="./index2.html">link</a> to my second JS page</p>
 			</main>

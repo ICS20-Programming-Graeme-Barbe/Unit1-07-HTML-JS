@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--Unit1-07-Intro-to-Js-->
+<html lang="en-ca">
+	<head>
+		<!-- Metadata -->
+		<meta charset="utf-8">
+		<meta name="description" content="My second web page with JS">
+		<meta name="keyword" content="immaculata, ics2o">
+		<meta name="author" content="Graeme Barbe">
+		<meta name="viewport" content="width=device-width, intial-scale-1.0">
+		<!-- Google's MDL -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.purple-light_green.min.css" />
+		<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+		<!-- Favicon -->
+		<link rel="apple-touch-icon" sizes="180x180" href="./fav_index2/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="./fav_index2/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="./fav_index2/favicon-16x16.png">
+		<link rel="manifest" href="./fav_index2/site.webmanifest">
+		<link rel="stylesheet" href="./css/style.css">
+		<title>My second web page with JS</title>
+	</head>
+ 	<body>
+		<!-- Google's MDL -->
+		<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+			
+			<!-- Container for webpage content -->
+			<main class = "mdl-layout__content" style = "padding-left:20px">
+
+				<!-- Header -->
+				<center><h1>Hello, World!, with JS</h1>
+	
+				<!-- Text and link -->
+				<p>Style is still important, that is why css was invented</p>
+				<p>Here is a <a href="./index.html">link</a> to my first JS page</p>
+			
+				<!-- Primary-colored flat button -->
+				<button onclick="buttonClickme()"class="mdl-button mdl-js-button mdl-button--primary">
+  					Click me!
+				</button>
+
+				<!-- Colored raised button -->
+				<button onclick="buttonCss()" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+  					Css
+				</button>
+
+				<!-- Button sript -->
+				<script>
+					function buttonClickme() {
+						alert("Yay for JS")
+					}
+
+					function buttonCss() {
+						alert("Proper Style is still important")
+					}
+				</script></center>
+			</main>
+		</div>
+	</body>
+</html>
